@@ -22,5 +22,5 @@
 n: number of nodes
 h: number of levels of the tree
 
-n = 2^0 + 2^1 + 2^2 + ... + 2^(h-1) = 2^h - 1
-h = log(n+1), base is 2
+n = 2^0^ + 2^1^ + 2^2^ + ... + 2^(h-1)^ = 2^h^ - 1
+h = log~2~(n+1)
