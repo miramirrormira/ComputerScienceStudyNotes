@@ -21,8 +21,8 @@
 ### Subjects that I need to learn from zero: 
 0. Greedy algorithms
 1. Trees and graphs (Finish on Apr 13th)
-2. System design
-3. Bit manipulation
+2. System design 
+3. Bit manipulation 
 4. Dynamic programming and recursion
 
 ### Subjects that I will relearn and pick up things I've forgotten before: 

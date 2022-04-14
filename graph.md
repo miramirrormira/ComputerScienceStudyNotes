@@ -1,9 +1,10 @@
 # Graph
 
+## Definition
 **A graph organizes items in an interconnected network**
 Each item is a **node** (**vertex**). Nodes are connected by **edges**.
 
-
+## Features
 ### Directed or undirected
 In **directed** graphs, edges point from the node at one end to the node at the other end. In **undirected** graphs, the edges simply connect the nodes at each end.
 
@@ -19,12 +20,13 @@ A **graph coloring** is when you assign colors to each node in a graph. A **lega
 
 
 ## Representations
-
+```
 1 --- 0
 |\
 | \
 |  \
 3 -- 2
+```
 
 ### Edge list
 ```
@@ -72,6 +74,18 @@ graph = [
 ### BFS: Breadth-first search
 Breadth-first search (BFS) is a method for exploring a tree or graph. In a BFS, you first explore all the nodes one step away, then all the nodes two steps away, etc.
 
+**implement BFS**
+Pseudocode using **recursion**
+```
+void search(Node root):
+    if (root == null) return
+    visit(root)
+    root.visited = true
+    for each Node n in root.adjacent:
+        if n.visited == false:
+            search(n)
+```
+
 **Advantages**
 A BFS will find the shortest path between the starting point and any other reachable node. A depth-first search will not necessarily find the shortest path.
 
@@ -81,6 +95,23 @@ A BFS on a binary tree generally requires more memory than a DFS.
 ### DFS: Depth-first search
 In a DFS, you go as deep as possible down one path before backing up and trying a different one. Depth-first search is like walking through a corn maze. You explore one path, hit a dead end, and go back and try a different one.
 
+**implement BFS**
+Pseudocode using **queue**
+```
+void search(Node root):
+    Queue queue = new Queue()
+    root.marked = true
+    queue.enqueue(root)
+
+    while !queue.isEmpty():
+        Node r = queue.dequeue()
+        visit(r)
+        for each Node n in r.adjacent:
+            if n.marked == false:
+                n.marked = true
+                queue.enqueue(n)
+```
+
 **Advantages**
 Depth-first search on a binary tree generally requires less memory than breadth-first.
 Depth-first search can be easily implemented with recursion.
@@ -88,6 +119,18 @@ Depth-first search can be easily implemented with recursion.
 **Disadvantages**
 A DFS doesn't necessarily find the shortest path to a node, while breadth-first search does.
 
+### Bidirectional Search
+Bidirectional search is a graph search algorithm which find smallest path from source to goal vertex. It runs two simultaneous search
+1. Forward search from source/initial vertex toward goal vertex
+2. Backward search from goal/target vertex toward source vertex
+
+**bidirectional search is faster**
+Suppose if branching factor of tree is b and distance of goal vertex from source is d, then the normal BFS/DFS searching complexity would be O(bd). On the other hand, if we execute two search operation then the complexity would be O(bd/2) for each search and total complexity would be O(bd/2 +bd/2) which is far less than O(bd).
+
+**When to use bidirectional approach?**
+We can consider bidirectional approach when- 
+- Both initial and goal states are unique and completely defined.
+- The branching factor is exactly the same in both directions.
 
 ### Graph problems
 1. **Is there a path** between two nodes in this undirected graph? Run DFS or BFS from one node and see if you reach the other one.
