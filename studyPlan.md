@@ -3,8 +3,8 @@
 ## Go through [interviewcake course](https://www.interviewcake.com/table-of-contents)
 
 0. Algorithmic thinking
-1. Array and string manipulation
-2. Hashing and hash tables
+1. Array and string manipulation 
+2. Hashing and hash tables 
 3. Greedy algorithms
 4. Sorting, searching, and logarithms
 5. Trees and graphs
@@ -15,24 +15,27 @@
 10. General programming
 11. Bit manipulation
 12. Combinatorics, probability, and other math
-13. JavaScript
+13. ~~JavaScript~~
 14. Coding Interview Tips
 
 ### Subjects that I need to learn from zero: 
-0. Greedy algorithms
-1. Trees and graphs (Finish on Apr 13th)
-2. System design 
-3. Bit manipulation 
-4. Dynamic programming and recursion
+0. ~~Greedy algorithms (Apr 13th)~~
+1. ~~Trees and graphs (Apr 13th)~~
+2. ~~System design (Apr 20th)~~
+3. ~~Bit manipulation (Apr 20th)~~
+4. ~~Dynamic programming and recursion (Apr 21th)~~
 
 ### Subjects that I will relearn and pick up things I've forgotten before: 
-0. Algorithmic thinking
-1. Array and string manipulation
-2. Hashing and hash tables
-3. Sorting, searching, and logarithms
-4. Queues and stacks
-5. Linked lists
-6. General programming
-7. Combinatorics, probability, and other math
-8. JavaScript
-9. Coding Interview Tips
+0. Algorithmic thinking (Apr 23rd)
+1. ~~Array and string manipulation (Finish on Apr 14th)~~
+2. ~~Hashing and hash tables (Finish on Apr 14th)~~
+3. ~~Sorting, searching, and logarithms (Apr 18th)~~
+4. ~~Queues and stacks (Apr 19th)~~
+5. ~~Linked lists (Apr 19th)~~
+6. ~~General programming (Apr 21th)~~
+7. Combinatorics, probability, and other math (Apr 22nd)
+8. ~~JavaScript~~
+9. Coding Interview Tips (Apr 22nd)
+
+Furthur study:
+- read more about greedy algorithm on GeeksForGeeks
