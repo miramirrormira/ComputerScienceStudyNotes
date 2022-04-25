@@ -12,7 +12,7 @@ struct Fib {
   f(n: Int) {
      if let ans = cache[n] { return ans }
      if n <= 1 { return 1}
-     cache[n] = f(n-1) + f(n-1)
+     cache[n] = f(n-1) + f(n-2)
      return cache[n]
   }
 }

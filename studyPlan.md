@@ -33,9 +33,36 @@
 4. ~~Queues and stacks (Apr 19th)~~
 5. ~~Linked lists (Apr 19th)~~
 6. ~~General programming (Apr 21th)~~
-7. Combinatorics, probability, and other math (Apr 22nd)
+7. ~~Combinatorics, probability, and other math (Apr 22nd)~~
 8. ~~JavaScript~~
-9. Coding Interview Tips (Apr 22nd)
+9. ~~Coding Interview Tips (Apr 22nd)~~
 
 Furthur study:
 - read more about greedy algorithm on GeeksForGeeks
+
+## [15 Leetcode patterns](https://designgurus.org/blog/grokking-leetcode):
+- Sliding Window (Apr 25)
+- Two Pointers
+- Fast & Slow Pointers
+- Merge Intervals
+- Cyclic Sort
+- In-place Reversal of a LinkedList
+- Tree Breadth-First Search
+- Tree Depth First Search
+- Two Heaps
+- Subsets
+- Modified Binary Search
+- Bitwise XOR
+- Top ‘K’ Elements
+- K-way Merge
+- 0/1 Knapsack
+- Unbounded Knapsack
+- Fibonacci Numbers
+- Palindromic Subsequence
+- Longest Common Substring
+- Topological Sort
+- Trie Traversal
+- Number of Island
+- Trial & Error
+- Union Find
+- Unique Paths (May 13)
