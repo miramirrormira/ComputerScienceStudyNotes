@@ -37,17 +37,15 @@
 8. ~~JavaScript~~
 9. ~~Coding Interview Tips (Apr 22nd)~~
 
-Furthur study:
-- read more about greedy algorithm on GeeksForGeeks
 
 ## [15 Leetcode patterns](https://designgurus.org/blog/grokking-leetcode):
-- Sliding Window (Apr 25)
-- Two Pointers
-- Fast & Slow Pointers
-- Merge Intervals
-- Cyclic Sort
-- In-place Reversal of a LinkedList
-- Tree Breadth-First Search
+- ~~Sliding Window~~
+- ~~Two Pointers~~
+- ~~Fast & Slow Pointers~~
+- ~~Merge Intervals~~
+- ~~Cyclic Sort~~
+- ~~In-place Reversal of a LinkedList~~
+- ~~Tree Breadth-First Search~~
 - Tree Depth First Search
 - Two Heaps
 - Subsets
@@ -66,3 +64,14 @@ Furthur study:
 - Trial & Error
 - Union Find
 - Unique Paths (May 13)
+
+
+Furthur study:
+- read more about greedy algorithm on GeeksForGeeks
+
+What are the uses of:
+- pre-order traversal of binary tree (get prefix expression on an expression tree)
+- post-order traversal of binary tree (postfix expression, delete a tree)
+- binary search tree, https://www.geeksforgeeks.org/binary-search-tree-data-structure/?ref=gcse
+- binary heap: https://www.geeksforgeeks.org/binary-heap/?ref=gcse
+- In-order tree traversal without recursion and without stack, https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion-and-without-stack/?ref=gcse

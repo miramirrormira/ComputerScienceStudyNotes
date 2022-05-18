@@ -37,7 +37,7 @@
 ```
 my_list[start_index:end_index]
 ```
-This takes O(n) time and O(n) space, where nn is the number of elements in the resulting list.
+This takes O(n) time and O(n) space, where n is the number of elements in the resulting list.
 1. allocating a new list
 2. copying the elements from the original list to the new list
 
