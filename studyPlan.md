@@ -75,3 +75,4 @@ What are the uses of:
 - binary search tree, https://www.geeksforgeeks.org/binary-search-tree-data-structure/?ref=gcse
 - binary heap: https://www.geeksforgeeks.org/binary-heap/?ref=gcse
 - In-order tree traversal without recursion and without stack, https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion-and-without-stack/?ref=gcse
+- set

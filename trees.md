@@ -120,7 +120,7 @@ Two Approaches:
    - faster
    - doesn't have call stack limitations (python has a max call stack limitation of 1000)
   
-Three traversing methods:
+Three DFS traversing methods:
 1. In-Order
    visit the left branch, then the current node, finally the right branch.
 
@@ -152,7 +152,7 @@ Three traversing methods:
         stack = deque()
 
         while True:
-            if current is not None:
+            if current:
                 stack.append(current)
                 current = current.left
             elif stack:
@@ -161,6 +161,7 @@ Three traversing methods:
                 current = current.right
             else:
                 break
+
    ```
 
 2. Pre-Order
@@ -189,14 +190,29 @@ Three traversing methods:
             result = result + preorder_traversal_recursive(root.right)
         return result
     
-    def printPreorderIterative(root):
+    def printPreorderIterative1(root):
         stack = deque([root])
         while stack:
             node = stack.pop()
-            if node:
-                print(node.value)
+            print(node.value)
+            if node.right:
                 stack.append(node.right)
+            if node.left:
                 stack.append(node.left)
+
+    def print_preorder_iterative2(root):
+        if root is None:
+            return
+        stack = deque()
+        current = root
+        while stack or current:
+            while current:
+                print(current.value)
+                if current.right:
+                    stack.append(current.right)
+                current = current.left
+            if stack:
+                current = stack.pop()
    ```
 
 
